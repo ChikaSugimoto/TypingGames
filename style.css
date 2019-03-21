@@ -1,0 +1,30 @@
+#main {
+    text-align: center;
+}
+
+#content {
+    border: 2px solid black; /* ボーダー */
+    border-radius: 10px; /* 角丸 */
+    width: 400px; /* 横幅 */
+    margin: 0 auto; /* 真ん中寄せ */
+}
+#yomi {
+    top: 40px;
+    position: relative;
+}
+#mondai {
+    display: flex;
+    justify-content: center; /* 子要素をflexboxにより中央に配置する */
+    font-size: 2.4rem;
+}
+.text {
+    padding: 2px;  
+}
+.text.default {
+    color: #f3f3f3;
+    text-shadow: 1px 1px 0 #000,-1px 1px 0 #000,1px -1px 0 #000,-1px -1px 0 #000;
+}
+.text.correct {
+    color: black;
+    text-shadow: none; /* ボーダーを無かったことにする */
+}
