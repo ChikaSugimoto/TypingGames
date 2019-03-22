@@ -1,5 +1,17 @@
+@charset "utf-8";
+
+body{
+    background-color: #ddd;
+}
+
+h2{
+    margin: 50px auto;
+    color: #4d4d4d;
+}
+
 #main {
     text-align: center;
+    margin: 100px auto;
 }
 
 #content {
@@ -30,7 +42,7 @@
 }
 
 .text.default {
-    color: #f3f3f3;
+    color: #fff;
     text-shadow: 1px 1px 0 #000, -1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000;
 }
 
@@ -44,7 +56,7 @@
     font-size: 1.0em;
     font-weight: bold;
     padding: 10px 30px;
-    background-color: #248;
+    background-color: #4d4d4d;
     color: #fff;
     border-style: none;
     cursor: pointer;
