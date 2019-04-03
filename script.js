@@ -168,4 +168,6 @@ $(function () {
         $yomi.text(MONDAI_LIST[index]['yomi']);
     }
 
+    bubbly();
+
 });

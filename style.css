@@ -1,12 +1,16 @@
 @charset "utf-8";
 
-body{
+body {
     background-color: #ddd;
 }
 
-h2{
+h1 {
     margin: 50px auto;
-    color: #4d4d4d;
+    color: #fff;
+}
+
+p{
+    color: #fff;
 }
 
 #main {
@@ -15,7 +19,7 @@ h2{
 }
 
 #content {
-    border: 2px solid black;
+    border: 2px solid  rgb(187, 227, 238);
     /* ボーダー */
     border-radius: 10px;
     /* 角丸 */
@@ -28,6 +32,7 @@ h2{
 #yomi {
     top: 40px;
     position: relative;
+    color: #fff;
 }
 
 #mondai {
@@ -42,29 +47,29 @@ h2{
 }
 
 .text.default {
-    color: #fff;
-    text-shadow: 1px 1px 0 #000, -1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000;
+    color:  #fff;
+    text-shadow: 1px 1px 0 #555, -1px 1px 0 #555, 1px -1px 0 #555, -1px -1px 0 #555;
 }
 
 .text.correct {
-    color: black;
+    color:  rgb(228, 228, 126);
     text-shadow: none;
     /* ボーダーを無かったことにする */
+}
+
+#finish-panel {
+    text-align: center;
+    margin-bottom: 30px;
 }
 
 #start-button {
     font-size: 1.0em;
     font-weight: bold;
     padding: 10px 30px;
-    background-color: #4d4d4d;
+    background-color: rgb(228, 228, 126);
     color: #fff;
     border-style: none;
     cursor: pointer;
-}
-
-#finish-panel {
-    text-align: center;
-    margin-bottom: 30px;
 }
 
 .hidden {
